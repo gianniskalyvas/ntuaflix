@@ -1,0 +1,28 @@
+.actorDetails {
+    margin-top: 100px;
+    display: flex;
+    justify-content:center;
+    height: 100vh ;
+    color:#F5F5F1;
+    text-align: center;
+    font-size: 25px;
+}
+
+.actorDetails img {
+    margin-right: 100px;
+    height:600px;
+    border-radius: 10px; 
+}
+
+.actorDetails ul {
+  padding-left: 0;
+}
+
+.actorDetails li {
+  font-size: 25;
+  list-style: none ;
+}
+
+#actortitles:hover {
+  color:#E50914;
+}

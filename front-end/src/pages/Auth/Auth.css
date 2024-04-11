@@ -1,0 +1,33 @@
+#authContainer {
+  color: #F5F5F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:fit-content;
+  font-size: 25px;
+}
+
+#authForm {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 500px;
+}
+
+#authForm label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+#authForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+

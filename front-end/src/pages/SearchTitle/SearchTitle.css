@@ -1,0 +1,13 @@
+#searchtitle {
+    color: #F5F5F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px;
+}
+
+#searchtitle input {
+    padding: 10px;
+}
+

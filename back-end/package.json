@@ -1,0 +1,28 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "Ενδεικτικά περιεχόμενα:",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "newman run ./testing/Back_end_testing.postman_collection.json --insecure"
+  },
+  "keywords": [],
+  "author": "Vaggelis Papamitsos",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "jupyter": "^0.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.5",
+    "newman": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

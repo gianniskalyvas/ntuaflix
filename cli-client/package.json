@@ -1,0 +1,28 @@
+{
+  "name": "cli-client",
+  "version": "1.0.0",
+  "description": "Ntuaflix CLI client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --insecure",
+    "test": "jest"
+  },
+  "bin": {
+    "se2313": "bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "axios-mock-adapter": "^1.22.0",
+    "form-data": "^4.0.0",
+    "https": "^1.0.0",
+    "meta-url": "^1.0.4",
+    "yargs": "^17.7.2"
+  },
+  "author": "el19865",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "depcheck": "^1.4.7",
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,85 @@
+/* Navbar.css */
+#sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Optional: Centers the buttons horizontally */
+}
+
+#sign button {
+  font-size: 25px;
+  width: 150px
+}
+
+#search {
+  font-size: 25px;
+  width: 150px
+}
+
+#navbar {
+  margin-left: 50px;
+  margin-right: 50px;
+  color:#221F1F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#logo {
+  color: #B8621B;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 30px;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.2), 7px 7px 7px rgba(0, 0, 0, 0.2); /* Adding a 3D shadow effect */
+  transition: color 0.3s ease;
+}
+
+#logo:hover {
+  color: #ff9900;
+}
+
+
+
+
+
+
+#option {
+  font-size: large;
+  width: 200px;  
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.popup-content ul {
+  padding: 0;
+  margin: 0 0 20px 0;
+  text-align: center;
+  list-style: none;
+}
+
+.popup-content {
+  background-color: #221F1F;
+  width:auto;
+  border: 1px solid #0a0909;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the left */
+  position:absolute;
+  top:-70px;
+  right: 10px;
+}
+
+#last {
+  margin-bottom: 20px;
+}
+
+[role="tooltip"].popup-content{
+  border: 0;
+}
