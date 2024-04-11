@@ -1,6 +1,6 @@
-# SoftEng-template
+# Project για το μάθημα Sorftware Engineering της σχολής ΗΜΜΥ, ΕΜΠ
 
-Project ομάδας 13
+Ομάδα 13
 
 Ευάγγελος Παπαμήτσος 03119105
 Ιωάννης Καλύβας 03119113
